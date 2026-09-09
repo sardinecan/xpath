@@ -7,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><!-- add a title here --></title>
+                <title>LHQ1C2M1 - Transformations éditoriales avancées</title>
                 <title type="subtitle">XPath</title>
                 <author>Josselin Morvan (université de Rouen Normandie)</author>
             </titleStmt>
@@ -23,7 +23,7 @@
         <body>
             <div type="lesson">
                 <div type="slide" rend="titlePage">
-                    <head>Initiation au langage de transformation XSLT</head>
+                    <head>Transformations éditoriales avancées</head>
                     <p>Josselin Morvan (université de Rouen Normandie)</p>
                 </div>
                 <div type="slide">
@@ -33,8 +33,8 @@
                         <item>
                             Initiation à XSLT
                             <list>
-                                <item>Programmation XSLT</item>
                                 <item>Les <emph>stylesheets</emph> de la TEI</item>
+                                <item>Programmation XSLT</item>
                             </list>
                         </item>
                     </list>
