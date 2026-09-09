@@ -7,7 +7,6 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AHN 2026</title>
                 <title type="subtitle">XPath</title>
                 <author>Josselin Morvan (université de Rouen Normandie)</author>
             </titleStmt>
@@ -24,14 +23,14 @@
             <div type="lesson">
                 <div type="slide" rend="titlePage">
                     <head>Initiation au langage de transformation XSLT</head>
-                    <p>AHN 2026 - Josselin Morvan (université de Rouen Normandie)</p>
+                    <p>Josselin Morvan (université de Rouen Normandie)</p>
                 </div>
                 <div type="slide">
                     <head>Contenu de la formation</head>
                     <list>
-                        <item>Initiation à XPath (matinée)</item>
+                        <item>Initiation à XPath </item>
                         <item>
-                            Initiation à XSLT (fin de matinée - après-midi)
+                            Initiation à XSLT
                             <list>
                                 <item>Programmation XSLT</item>
                                 <item>Les <emph>stylesheets</emph> de la TEI</item>
@@ -470,7 +469,7 @@
                 </div>
                 <div type="slide" rend="titlePage">
                     <head>Exercice 01</head>
-                    <p>L’exercice peut être récupéré sur Github &lt;<ref target="https://github.com/sardinecan/ahn2026-xpath/releases">sardinecan/ahn2026-xpath/releases</ref>&gt;</p>
+                    <p>L’exercice peut être récupéré sur Github &lt;<ref target="https://github.com/sardinecan/xpath/releases">sardinecan/xpath/releases</ref>&gt;</p>
                 </div>
                 <div type="slide">
                     <head>Bibliographie</head>
