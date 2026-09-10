@@ -33,12 +33,23 @@
                         <item>
                             Initiation à XSLT
                             <list>
-                                <item>Les <emph>stylesheets</emph> de la TEI</item>
+                                <item>Les <emph>Stylesheets</emph> de la TEI</item>
                                 <item>Programmation XSLT</item>
                             </list>
                         </item>
                     </list>
                     <p><hi rend="bold">Objectifs</hi> : acquérir les fondements du langage de programmation XSLT pour transformer des documents XML-TEI vers HTML pour la publication web.</p>
+                    <p><hi rend="bold">Calendrier</hi> :</p>
+                    <list>
+                        <item>10 septembre</item>
+                        <item>17 septembre</item>
+                        <item>24 septembre</item>
+                        <item>8 octobre (évaluation XPath ?)</item>
+                        <item>15 octobre</item>
+                        <item>22 octobre</item>
+                    </list>
+                    <p>3h manquantes.</p>
+                    <p>Puis <emph>Éditer, analyser, publier</emph> les 5, 12, 19, 26 novembre et 3 décembre.</p>
                 </div>
                 <div type="slide" rend="titlePage">
                     <head>Définitions</head>
@@ -470,7 +481,7 @@
                 </div>
                 <div type="slide" rend="titlePage">
                     <head>Exercice 01</head>
-                    <p>L’exercice peut être récupéré sur Github &lt;<ref target="https://github.com/sardinecan/xpath/releases">sardinecan/xpath/releases</ref>&gt;</p>
+                    <p>L’exercice peut être récupéré sur Universitice &lt;<ref target="https://universitice.univ-rouen.fr/course/section.php?id=298762">https://universitice.univ-rouen.fr/course/section.php?id=298762</ref>&gt;</p>
                 </div>
                 <div type="slide">
                     <head>Bibliographie</head>
@@ -482,10 +493,6 @@
                         <item>Rahtz Sebastian, Working with TEI Stylesheets.</item>
                         <item>W3C, « XML Path Language (XPath) 3.1 ». &lt;<ref target="https://www.w3.org/TR/xpath-31/">https://www.w3.org/TR/xpath-31/</ref>&gt; </item>
                     </list>
-                </div>
-                <div type="slide">
-                    <head>The End</head>
-                    <p>&lt;merci/&gt;</p>
                 </div>
             </div>
         </body>
