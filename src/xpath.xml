@@ -143,13 +143,13 @@
                     <head>Faire son chemin…</head>
                     <p>Par quelles étapes doit-on passer pour atteindre les éléments <code>div</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <p>On commence par l’élément <code>body</code>, puis on descend dans les éléments <emph>fils</emph> <code>div</code>. <lb/>Avec XPath : <code>/child::body/child::div</code></p>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree01.png"/>
+                            <graphic url="assets/images/tree01.png"/>
                         </figure>
                     </note>
                 </div>
@@ -171,12 +171,12 @@
                     <head rend="hidden">Les étapes - Q° 01</head>
                     <p><code>/child::body/child::div/child::closer</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree02.png"/>
+                            <graphic url="assets/images/tree02.png"/>
                         </figure>
                     </note>
                 </div>
@@ -185,12 +185,12 @@
                     <head rend="hidden">Les étapes - Q° 02</head>
                     <p><code>/child::body/child::div/child::p</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree03.png"/>
+                            <graphic url="assets/images/tree03.png"/>
                         </figure>
                     </note>
                 </div>
@@ -205,12 +205,12 @@
                     <head rend="hidden">Les axes - Q° 01</head>
                     <p><code>/child::body/descendant::p</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree03.png"/>
+                            <graphic url="assets/images/tree03.png"/>
                         </figure>
                     </note>
                 </div>
@@ -245,12 +245,12 @@
                     <head rend="hidden">Les nœuds - Q° 01</head>
                     <p><code>/child::body/child::div/attribute::type</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree04.png"/>
+                            <graphic url="assets/images/tree04.png"/>
                         </figure>
                     </note>
                 </div>
@@ -258,12 +258,12 @@
                     <head rend="hidden">Les nœuds - Q° 02</head>
                     <p><code>/child::body/child::div/child::*</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree09.png"/>
+                            <graphic url="assets/images/tree09.png"/>
                         </figure>
                     </note>
                 </div>
@@ -272,12 +272,12 @@
                     <head rend="hidden">Les nœuds - Q° 03</head>
                     <p><code>/child::body/child::div/child::p/following-sibling::* intersect /child::body/child::div/child::closer</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree10.png"/>
+                            <graphic url="assets/images/tree10.png"/>
                         </figure>
                     </note>
                 </div>
@@ -303,12 +303,12 @@
                     <head rend="hidden">Shorthand - Q° 01</head>
                     <p><code>/body/div/p</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree03.png"/>
+                            <graphic url="assets/images/tree03.png"/>
                         </figure>
                     </note>
                 </div>
@@ -316,12 +316,12 @@
                     <head rend="hidden">Shorthand - Q° 02</head>
                     <p><code>//@type</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree04.png"/>
+                            <graphic url="assets/images/tree04.png"/>
                         </figure>
                     </note>
                 </div>
@@ -329,12 +329,12 @@
                     <head rend="hidden">Shorthand - Q° 03</head>
                     <p><code>//p/../@type</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree04.png"/>
+                            <graphic url="assets/images/tree04.png"/>
                         </figure>
                     </note>
                 </div>
@@ -354,12 +354,12 @@
                     <head rend="hidden">Les prédicats - Q° 01</head>
                     <p><code>//*[@rend]</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree11.png"/>
+                            <graphic url="assets/images/tree11.png"/>
                         </figure>
                     </note>
                 </div>
@@ -367,12 +367,12 @@
                     <head rend="hidden">Les prédicats - Q° 02</head>
                     <p><code>//div[@type = 'letter']</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree05.png"/>
+                            <graphic url="assets/images/tree05.png"/>
                         </figure>
                         <!--<p>On notera que l'usage des single quote pour les chaines de caractères</p>-->
                     </note>
@@ -381,12 +381,12 @@
                     <head rend="hidden">Les prédicats - Q° 03</head>
                     <p><code>//@type[. = 'letter']</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree08.png"/>
+                            <graphic url="assets/images/tree08.png"/>
                         </figure>
                     </note>
                 </div>
@@ -394,12 +394,12 @@
                     <head rend="hidden">Les prédicats - Q° 04</head>
                     <p><code>//p[1]</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree06.png"/>
+                            <graphic url="assets/images/tree06.png"/>
                         </figure>
                     </note>
                 </div>
@@ -407,12 +407,12 @@
                     <head rend="hidden">Les prédicats - Q° 05</head>
                     <p><code>//p[@n &lt; 3][../@type='letter']</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree07.png"/>
+                            <graphic url="assets/images/tree07.png"/>
                         </figure>
                     </note>
                 </div>
@@ -446,12 +446,12 @@
                     <head rend="hidden">Les fonctions - Q° 01</head>
                     <p><code>//div[count(p) = 2]</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree05.png"/>
+                            <graphic url="assets/images/tree05.png"/>
                         </figure>
                     </note>
                 </div>
@@ -459,12 +459,12 @@
                     <head rend="hidden">Les fonctions - Q° 02</head>
                     <p><code>//div[not(@type = 'letter')]</code> ?</p>
                     <figure>
-                        <graphic url="../assets/images/xpath/tree.png"/>
+                        <graphic url="assets/images/tree.png"/>
                     </figure>
                     <note type="details">
                         <label>Réponse</label>
                         <figure>
-                            <graphic url="../assets/images/xpath/tree12.png"/>
+                            <graphic url="assets/images/tree12.png"/>
                         </figure>
                     </note>
                 </div>
